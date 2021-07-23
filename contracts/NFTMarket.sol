@@ -113,9 +113,9 @@ contract NFTMarket is ReentrancyGuard {
                 items[currentIndex] = currentItem;
                 currentIndex += 1;
             }
-        return items;
+        
         } 
-
+        return items;
     }
 
     /* View items that the owner has created */
